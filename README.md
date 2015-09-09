@@ -1,0 +1,2 @@
+#hackyourbackpack-scroll
+Example code for Hack Your Backpack event at littleBits store on 9/12/2015. Scrolls "#HackYourBackpack" across LED matrix. Based off [Adafruit_NeoMatrix example] (https://github.com/adafruit/Adafruit_NeoMatrix/tree/master/examples/matrixtest).
