@@ -38,7 +38,7 @@ void setup() {
 
 int x = matrix.width();
 int pass = 0;
-
+int numColors = sizeof(colors)/sizeof(uint16_t);
 
 void loop() {
   matrix.fillScreen(0);
@@ -46,7 +46,7 @@ void loop() {
   matrix.print(F("#HackYourBackpack"));
   if(--x < -100) {
     x = matrix.width();
-    if(++pass >= sizeof(colors)) pass = 0;
+    if(++pass >= numColors) pass = 0;
     matrix.setTextColor(colors[pass]);
   }
   matrix.show();
